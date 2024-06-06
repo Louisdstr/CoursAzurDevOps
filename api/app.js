@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true}))
 /*** IMPORT ROUTER */
 const user_router = require('./routes/user_r')
 
-/*** ROUTAGE */
+/*** ROUTAGE  */
 
 app.get('/', (req, res) => res.send('Ratatouf is online !!!!'))
 
